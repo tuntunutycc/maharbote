@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    color: #2d3436;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2d3436;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #636e72;
+}
+
+.fortune-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #2d3436;
+}
+
+select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2d3436;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #74b9ff;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #0773c5;
+}
+
+.fortune-result {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-content {
+    max-width: 600px;
+}
+
+.result-content h2 {
+    color: #2d3436;
+    margin-bottom: 1rem;
+}
+
+.prediction-text {
+    font-size: 1.2rem;
+    color: #636e72;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #636e72;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .fortune-form, .fortune-result {
+        padding: 1.5rem;
+    }
+} 
