@@ -2,53 +2,53 @@ from typing import Dict
 
 FORTUNE_PREDICTIONS: Dict[str, Dict[str, str]] = {
     "monday": {
-        "general": "You are a natural leader with great determination.",
-        "today": "Today brings new opportunities for growth and success.",
-        "love": "Your relationships will flourish with patience and understanding.",
-        "career": "A promising career opportunity may present itself soon.",
-        "health": "Focus on maintaining a balanced lifestyle for optimal health."
+        "general": "သင်သည် ခေါင်းဆောင်မှုကောင်းသော သူတစ်ဦးဖြစ်ပြီး စိတ်ဓာတ်ခိုင်မာသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် ကြီးထွားမှုနှင့် အောင်မြင်မှုအတွက် အခွင့်အလမ်းသစ်များ ယူဆောင်လာပါသည်။",
+        "love": "သင့်ဆက်ဆံရေးများသည် သည်းခံမှုနှင့် နားလည်မှုဖြင့် ဖွံ့ဖြိုးတိုးတက်လာပါမည်။",
+        "career": "မကြာမီ အောင်မြင်မှုရရှိရန် အခွင့်အလမ်းကောင်းများ ရရှိနိုင်ပါသည်။",
+        "health": "ကျန်းမာရေးကောင်းမွန်ရန် ဘဝနေထိုင်မှုပုံစံကို မျှတစွာ ထိန်းသိမ်းပါ။"
     },
     "tuesday": {
-        "general": "You possess great energy and enthusiasm for life.",
-        "today": "Today is perfect for starting new projects or ventures.",
-        "love": "Your charm will attract positive attention in relationships.",
-        "career": "Your hard work will be recognized and rewarded.",
-        "health": "Stay active and maintain your exercise routine."
+        "general": "သင်သည် ဘဝအတွက် စွမ်းအင်နှင့် စိတ်အားထက်သန်မှု ရှိသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် စီမံကိန်းသစ်များ စတင်ရန် အကောင်းဆုံးနေ့ဖြစ်ပါသည်။",
+        "love": "သင့်ဆွဲဆောင်မှုသည် ဆက်ဆံရေးတွင် အပြုသဘောဆောင်သော အာရုံစိုက်မှုကို ရရှိစေပါမည်။",
+        "career": "သင့်ကြိုးစားမှုကို အသိအမှတ်ပြုပြီး ဆုချီးမြှင့်ခြင်း ခံရပါမည်။",
+        "health": "လှုပ်ရှားမှုများ ပြုလုပ်ပြီး လေ့ကျင့်ခန်း ပုံမှန်လုပ်ဆောင်ပါ။"
     },
     "wednesday": {
-        "general": "You have excellent communication skills and adaptability.",
-        "today": "Today brings clarity to important decisions.",
-        "love": "Open communication will strengthen your relationships.",
-        "career": "Your creative ideas will be well-received.",
-        "health": "Focus on mental well-being and stress management."
+        "general": "သင်သည် ဆက်သွယ်ရေးကျွမ်းကျင်မှုနှင့် လိုက်လျောညီထွေမှု ရှိသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် အရေးကြီးဆုံးဖြတ်ချက်များအတွက် ရှင်းလင်းမှုကို ယူဆောင်လာပါသည်။",
+        "love": "ပွင့်လင်းသော ဆက်သွယ်ရေးသည် သင့်ဆက်ဆံရေးများကို အားကောင်းစေပါမည်။",
+        "career": "သင့်ဖန်တီးမှုစွမ်းရည်သည် အသိအမှတ်ပြုခြင်း ခံရပါမည်။",
+        "health": "စိတ်ကျန်းမာရေးနှင့် စိတ်ဖိစီးမှု စီမံခန့်ခွဲမှုကို အာရုံစိုက်ပါ။"
     },
     "thursday": {
-        "general": "You are blessed with wisdom and good judgment.",
-        "today": "Today is favorable for learning and personal growth.",
-        "love": "Your relationships will benefit from your wisdom.",
-        "career": "Your expertise will be valuable to others.",
-        "health": "Maintain a balanced diet and regular exercise."
+        "general": "သင်သည် ဉာဏ်ပညာနှင့် ကောင်းမွန်သော ဆုံးဖြတ်ချက်ချမှတ်နိုင်စွမ်း ရှိသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် သင်ယူမှုနှင့် ကိုယ်ပိုင်ဖွံ့ဖြိုးမှုအတွက် ကောင်းမွန်သော နေ့ဖြစ်ပါသည်။",
+        "love": "သင့်ဆက်ဆံရေးများသည် သင့်ဉာဏ်ပညာဖြင့် အကျိုးကျေးဇူးရရှိပါမည်။",
+        "career": "သင့်ကျွမ်းကျင်မှုသည် အခြားသူများအတွက် တန်ဖိုးရှိပါသည်။",
+        "health": "မျှတသော အစားအသောက်နှင့် ပုံမှန်လေ့ကျင့်ခန်း ပြုလုပ်ပါ။"
     },
     "friday": {
-        "general": "You bring joy and happiness to those around you.",
-        "today": "Today brings good fortune and positive outcomes.",
-        "love": "Your relationships will be filled with joy and harmony.",
-        "career": "Success comes through your positive attitude.",
-        "health": "Your natural optimism contributes to good health."
+        "general": "သင်သည် သင့်ပတ်ဝန်းကျင်ရှိ သူများအတွက် ပျော်ရွှင်မှုနှင့် ပျော်ရွှင်မှုကို ယူဆောင်လာသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် ကံကောင်းမှုနှင့် အပြုသဘောဆောင်သော ရလဒ်များကို ယူဆောင်လာပါသည်။",
+        "love": "သင့်ဆက်ဆံရေးများသည် ပျော်ရွှင်မှုနှင့် သဟဇာတဖြစ်မှုဖြင့် ပြည့်နှက်ပါမည်။",
+        "career": "အောင်မြင်မှုသည် သင့်အပြုသဘောဆောင်သော သဘောထားမှ ရရှိပါမည်။",
+        "health": "သင့်သဘာဝအတိုင်း အကောင်းမြင်စိတ်သည် ကျန်းမာရေးကောင်းမွန်ရန် အထောက်အကူပြုပါသည်။"
     },
     "saturday": {
-        "general": "You have a strong sense of responsibility and reliability.",
-        "today": "Today is good for completing tasks and projects.",
-        "love": "Your dedication will strengthen your relationships.",
-        "career": "Your reliability will lead to career advancement.",
-        "health": "Focus on maintaining a regular routine."
+        "general": "သင်သည် တာဝန်ယူမှုနှင့် ယုံကြည်စိတ်ချရမှု အားကောင်းသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် အလုပ်များနှင့် စီမံကိန်းများ ပြီးဆုံးရန် ကောင်းမွန်သော နေ့ဖြစ်ပါသည်။",
+        "love": "သင့်အနစ်နာခံမှုသည် သင့်ဆက်ဆံရေးများကို အားကောင်းစေပါမည်။",
+        "career": "သင့်ယုံကြည်စိတ်ချရမှုသည် ရာထူးတိုးမြှင့်ရန် ဦးတည်ပါမည်။",
+        "health": "ပုံမှန်နေထိုင်မှုပုံစံကို ထိန်းသိမ်းရန် အာရုံစိုက်ပါ။"
     },
     "sunday": {
-        "general": "You possess great creativity and spiritual awareness.",
-        "today": "Today brings peace and spiritual growth.",
-        "love": "Your relationships will deepen with understanding.",
-        "career": "Your creative talents will be recognized.",
-        "health": "Balance physical and spiritual well-being."
+        "general": "သင်သည် ဖန်တီးမှုစွမ်းရည်နှင့် ဝိညာဉ်ရေးရာ သတိပြုမိမှု ရှိသူဖြစ်ပါသည်။",
+        "today": "ယနေ့သည် ငြိမ်းချမ်းမှုနှင့် ဝိညာဉ်ရေးရာ ကြီးထွားမှုကို ယူဆောင်လာပါသည်။",
+        "love": "သင့်ဆက်ဆံရေးများသည် နားလည်မှုဖြင့် နက်ရှိုင်းလာပါမည်။",
+        "career": "သင့်ဖန်တီးမှုစွမ်းရည်ကို အသိအမှတ်ပြုခြင်း ခံရပါမည်။",
+        "health": "ရုပ်ပိုင်းဆိုင်ရာနှင့် ဝိညာဉ်ရေးရာ ကျန်းမာရေးကို မျှတစွာ ထိန်းသိမ်းပါ။"
     }
 }
 
@@ -67,9 +67,9 @@ def get_fortune(day: str, aspect: str = "general") -> str:
     aspect = aspect.lower()
     
     if day not in FORTUNE_PREDICTIONS:
-        return "Invalid day of the week. Please provide a valid day (Monday through Sunday)."
+        return "မှားယွင်းသော နေ့ဖြစ်ပါသည်။ မှန်ကန်သော နေ့ကို ရွေးပါ (တနင်္လာမှ တနင်္ဂနွေထိ)။"
     
     if aspect not in FORTUNE_PREDICTIONS[day]:
-        return "Invalid aspect. Please choose from: general, today, love, career, health."
+        return "မှားယွင်းသော ရှုထောင့်ဖြစ်ပါသည်။ အောက်ပါတို့မှ ရွေးပါ: အထွေထွေ၊ ယနေ့၏ ကံြမ္မာ၊ အချစ်ရေး၊ အလုပ်အကိုင်၊ ကျန်းမာရေး။"
     
     return FORTUNE_PREDICTIONS[day][aspect] 

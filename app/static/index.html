@@ -1,60 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="my">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maharbote - Fortune Prediction</title>
+    <title>မဟာဘုတ် - ကံကြမ္မာဟောခြင်း</title>
     <link rel="stylesheet" href="/static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Maharbote</h1>
-            <p class="subtitle">Discover your fortune based on your birth day</p>
+            <h1>မဟာဘုတ်</h1>
+            <p class="subtitle">သင့်မွေးနေ့အလိုက် ကံကြမ္မာကို ဟောကြားပေးပါသည်</p>
         </header>
 
         <main>
             <div class="fortune-form">
                 <div class="form-group">
-                    <label for="birthDay">Select your birth day:</label>
+                    <label for="birthDay">မွေးနေ့ကို ရွေးပါ:</label>
                     <select id="birthDay" required>
-                        <option value="">Choose a day...</option>
-                        <option value="Monday">Monday</option>
-                        <option value="Tuesday">Tuesday</option>
-                        <option value="Wednesday">Wednesday</option>
-                        <option value="Thursday">Thursday</option>
-                        <option value="Friday">Friday</option>
-                        <option value="Saturday">Saturday</option>
-                        <option value="Sunday">Sunday</option>
+                        <option value="">နေ့ကို ရွေးပါ...</option>
+                        <option value="Monday">တနင်္လာ</option>
+                        <option value="Tuesday">အင်္ဂါ</option>
+                        <option value="Wednesday">ဗုဒ္ဓဟူး</option>
+                        <option value="Thursday">ကြာသပတေး</option>
+                        <option value="Friday">သောကြာ</option>
+                        <option value="Saturday">စနေ</option>
+                        <option value="Sunday">တနင်္ဂနွေ</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="aspect">Select aspect of life:</label>
+                    <label for="aspect">ဘဝ၏ ရှုထောင့်ကို ရွေးပါ:</label>
                     <select id="aspect" required>
-                        <option value="">Choose an aspect...</option>
-                        <option value="general">General</option>
-                        <option value="today">Today's Fortune</option>
-                        <option value="love">Love Life</option>
-                        <option value="career">Career</option>
-                        <option value="health">Health</option>
+                        <option value="">ရှုထောင့်ကို ရွေးပါ...</option>
+                        <option value="general">အထွေထွေ</option>
+                        <option value="today">ယနေ့၏ ကံကြမ္မာ</option>
+                        <option value="love">အချစ်ရေး</option>
+                        <option value="career">အလုပ်အကိုင်</option>
+                        <option value="health">ကျန်းမာရေး</option>
                     </select>
                 </div>
 
-                <button id="getFortune" class="btn">Get Your Fortune</button>
+                <button id="getFortune" class="btn">ကံကြမ္မာကို ကြည့်ရှုရန်</button>
             </div>
 
             <div class="fortune-result" id="fortuneResult">
                 <div class="result-content">
-                    <h2>Your Fortune</h2>
+                    <h2>သင့်ကံကြမ္မာ</h2>
                     <p id="prediction" class="prediction-text"></p>
                 </div>
             </div>
         </main>
 
         <footer>
-            <p>Discover your destiny with Maharbote</p>
+            <p>မဟာဘုတ်ဖြင့် သင့်ကံကြမ္မာကို သိရှိနိုင်ပါသည်</p>
         </footer>
     </div>
     <script src="/static/script.js"></script>
